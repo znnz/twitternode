@@ -1,0 +1,943 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json twitterNode@0.0.1 No repository field.
+6 warn package.json twitterNode@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Users\\Admin\\WebstormProjects\\twitterNode',
+8 verbose install   [ 'express',
+8 verbose install     'express-handlebars',
+8 verbose install     'mongoose',
+8 verbose install     'node-jsx',
+8 verbose install     'ntwitter',
+8 verbose install     'react',
+8 verbose install     'socket.io',
+8 verbose install     'browserify',
+8 verbose install     'nodemon',
+8 verbose install     'reactify',
+8 verbose install     'ugilify-js',
+8 verbose install     'watchify' ] ]
+9 info preinstall twitterNode@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'express@latest', null ]
+12 verbose cache add name=undefined spec="express@latest" args=["express@latest",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express@latest',
+13 verbose parsed url   path: 'express@latest',
+13 verbose parsed url   href: 'express@latest' }
+14 verbose cache add [ 'express-handlebars@latest', null ]
+15 verbose cache add name=undefined spec="express-handlebars@latest" args=["express-handlebars@latest",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'express-handlebars@latest',
+16 verbose parsed url   path: 'express-handlebars@latest',
+16 verbose parsed url   href: 'express-handlebars@latest' }
+17 verbose cache add [ 'mongoose@latest', null ]
+18 verbose cache add name=undefined spec="mongoose@latest" args=["mongoose@latest",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'mongoose@latest',
+19 verbose parsed url   path: 'mongoose@latest',
+19 verbose parsed url   href: 'mongoose@latest' }
+20 verbose cache add [ 'node-jsx@latest', null ]
+21 verbose cache add name=undefined spec="node-jsx@latest" args=["node-jsx@latest",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'node-jsx@latest',
+22 verbose parsed url   path: 'node-jsx@latest',
+22 verbose parsed url   href: 'node-jsx@latest' }
+23 verbose cache add [ 'ntwitter@latest', null ]
+24 verbose cache add name=undefined spec="ntwitter@latest" args=["ntwitter@latest",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'ntwitter@latest',
+25 verbose parsed url   path: 'ntwitter@latest',
+25 verbose parsed url   href: 'ntwitter@latest' }
+26 verbose cache add [ 'react@latest', null ]
+27 verbose cache add name=undefined spec="react@latest" args=["react@latest",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'react@latest',
+28 verbose parsed url   path: 'react@latest',
+28 verbose parsed url   href: 'react@latest' }
+29 verbose cache add [ 'socket.io@latest', null ]
+30 verbose cache add name=undefined spec="socket.io@latest" args=["socket.io@latest",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'socket.io@latest',
+31 verbose parsed url   path: 'socket.io@latest',
+31 verbose parsed url   href: 'socket.io@latest' }
+32 verbose cache add [ 'browserify@latest', null ]
+33 verbose cache add name=undefined spec="browserify@latest" args=["browserify@latest",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'browserify@latest',
+34 verbose parsed url   path: 'browserify@latest',
+34 verbose parsed url   href: 'browserify@latest' }
+35 verbose cache add [ 'nodemon@latest', null ]
+36 verbose cache add name=undefined spec="nodemon@latest" args=["nodemon@latest",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'nodemon@latest',
+37 verbose parsed url   path: 'nodemon@latest',
+37 verbose parsed url   href: 'nodemon@latest' }
+38 verbose cache add [ 'reactify@latest', null ]
+39 verbose cache add name=undefined spec="reactify@latest" args=["reactify@latest",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'reactify@latest',
+40 verbose parsed url   path: 'reactify@latest',
+40 verbose parsed url   href: 'reactify@latest' }
+41 verbose cache add [ 'ugilify-js@latest', null ]
+42 verbose cache add name=undefined spec="ugilify-js@latest" args=["ugilify-js@latest",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'ugilify-js@latest',
+43 verbose parsed url   path: 'ugilify-js@latest',
+43 verbose parsed url   href: 'ugilify-js@latest' }
+44 verbose cache add [ 'watchify@latest', null ]
+45 verbose cache add name=undefined spec="watchify@latest" args=["watchify@latest",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'watchify@latest',
+46 verbose parsed url   path: 'watchify@latest',
+46 verbose parsed url   href: 'watchify@latest' }
+47 verbose cache add name="express" spec="latest" args=["express","latest"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'latest',
+48 verbose parsed url   path: 'latest',
+48 verbose parsed url   href: 'latest' }
+49 verbose addNamed [ 'express', 'latest' ]
+50 verbose addNamed [ null, null ]
+51 verbose cache add name="express-handlebars" spec="latest" args=["express-handlebars","latest"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'latest',
+52 verbose parsed url   path: 'latest',
+52 verbose parsed url   href: 'latest' }
+53 verbose addNamed [ 'express-handlebars', 'latest' ]
+54 verbose addNamed [ null, null ]
+55 verbose cache add name="mongoose" spec="latest" args=["mongoose","latest"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'latest',
+56 verbose parsed url   path: 'latest',
+56 verbose parsed url   href: 'latest' }
+57 verbose addNamed [ 'mongoose', 'latest' ]
+58 verbose addNamed [ null, null ]
+59 verbose cache add name="node-jsx" spec="latest" args=["node-jsx","latest"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'latest',
+60 verbose parsed url   path: 'latest',
+60 verbose parsed url   href: 'latest' }
+61 verbose addNamed [ 'node-jsx', 'latest' ]
+62 verbose addNamed [ null, null ]
+63 verbose cache add name="ntwitter" spec="latest" args=["ntwitter","latest"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: 'latest',
+64 verbose parsed url   path: 'latest',
+64 verbose parsed url   href: 'latest' }
+65 verbose addNamed [ 'ntwitter', 'latest' ]
+66 verbose addNamed [ null, null ]
+67 verbose cache add name="react" spec="latest" args=["react","latest"]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'latest',
+68 verbose parsed url   path: 'latest',
+68 verbose parsed url   href: 'latest' }
+69 verbose addNamed [ 'react', 'latest' ]
+70 verbose addNamed [ null, null ]
+71 verbose cache add name="socket.io" spec="latest" args=["socket.io","latest"]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: 'latest',
+72 verbose parsed url   path: 'latest',
+72 verbose parsed url   href: 'latest' }
+73 verbose addNamed [ 'socket.io', 'latest' ]
+74 verbose addNamed [ null, null ]
+75 verbose cache add name="browserify" spec="latest" args=["browserify","latest"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'latest',
+76 verbose parsed url   path: 'latest',
+76 verbose parsed url   href: 'latest' }
+77 verbose addNamed [ 'browserify', 'latest' ]
+78 verbose addNamed [ null, null ]
+79 verbose cache add name="nodemon" spec="latest" args=["nodemon","latest"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'latest',
+80 verbose parsed url   path: 'latest',
+80 verbose parsed url   href: 'latest' }
+81 verbose addNamed [ 'nodemon', 'latest' ]
+82 verbose addNamed [ null, null ]
+83 verbose cache add name="reactify" spec="latest" args=["reactify","latest"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: 'latest',
+84 verbose parsed url   path: 'latest',
+84 verbose parsed url   href: 'latest' }
+85 verbose addNamed [ 'reactify', 'latest' ]
+86 verbose addNamed [ null, null ]
+87 verbose cache add name="ugilify-js" spec="latest" args=["ugilify-js","latest"]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'latest',
+88 verbose parsed url   path: 'latest',
+88 verbose parsed url   href: 'latest' }
+89 verbose addNamed [ 'ugilify-js', 'latest' ]
+90 verbose addNamed [ null, null ]
+91 verbose cache add name="watchify" spec="latest" args=["watchify","latest"]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'latest',
+92 verbose parsed url   path: 'latest',
+92 verbose parsed url   href: 'latest' }
+93 verbose addNamed [ 'watchify', 'latest' ]
+94 verbose addNamed [ null, null ]
+95 silly lockFile c30a01ab-express-latest express@latest
+96 verbose lock express@latest C:\Users\Admin\AppData\Roaming\npm-cache\c30a01ab-express-latest.lock
+97 silly lockFile 2a235eef-express-handlebars-latest express-handlebars@latest
+98 verbose lock express-handlebars@latest C:\Users\Admin\AppData\Roaming\npm-cache\2a235eef-express-handlebars-latest.lock
+99 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+100 verbose lock mongoose@latest C:\Users\Admin\AppData\Roaming\npm-cache\73e949f4-mongoose-latest.lock
+101 silly lockFile ee028ce4-node-jsx-latest node-jsx@latest
+102 verbose lock node-jsx@latest C:\Users\Admin\AppData\Roaming\npm-cache\ee028ce4-node-jsx-latest.lock
+103 silly lockFile 0f042bd5-ntwitter-latest ntwitter@latest
+104 verbose lock ntwitter@latest C:\Users\Admin\AppData\Roaming\npm-cache\0f042bd5-ntwitter-latest.lock
+105 silly lockFile d2156d35-react-latest react@latest
+106 verbose lock react@latest C:\Users\Admin\AppData\Roaming\npm-cache\d2156d35-react-latest.lock
+107 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+108 verbose lock socket.io@latest C:\Users\Admin\AppData\Roaming\npm-cache\d01f6c55-socket-io-latest.lock
+109 silly lockFile 97edd6c9-browserify-latest browserify@latest
+110 verbose lock browserify@latest C:\Users\Admin\AppData\Roaming\npm-cache\97edd6c9-browserify-latest.lock
+111 silly lockFile 164666a5-nodemon-latest nodemon@latest
+112 verbose lock nodemon@latest C:\Users\Admin\AppData\Roaming\npm-cache\164666a5-nodemon-latest.lock
+113 silly lockFile 82dfd23f-reactify-latest reactify@latest
+114 verbose lock reactify@latest C:\Users\Admin\AppData\Roaming\npm-cache\82dfd23f-reactify-latest.lock
+115 silly lockFile 76742a9a-ugilify-js-latest ugilify-js@latest
+116 verbose lock ugilify-js@latest C:\Users\Admin\AppData\Roaming\npm-cache\76742a9a-ugilify-js-latest.lock
+117 silly lockFile e985c5b7-watchify-latest watchify@latest
+118 verbose lock watchify@latest C:\Users\Admin\AppData\Roaming\npm-cache\e985c5b7-watchify-latest.lock
+119 info addNameTag [ 'mongoose', 'latest' ]
+120 info addNameTag [ 'watchify', 'latest' ]
+121 info addNameTag [ 'react', 'latest' ]
+122 info addNameTag [ 'node-jsx', 'latest' ]
+123 info addNameTag [ 'socket.io', 'latest' ]
+124 info addNameTag [ 'ntwitter', 'latest' ]
+125 info addNameTag [ 'nodemon', 'latest' ]
+126 info addNameTag [ 'reactify', 'latest' ]
+127 info addNameTag [ 'ugilify-js', 'latest' ]
+128 info addNameTag [ 'browserify', 'latest' ]
+129 info addNameTag [ 'express-handlebars', 'latest' ]
+130 info addNameTag [ 'express', 'latest' ]
+131 verbose request where is /ugilify-js
+132 verbose request registry https://registry.npmjs.org/
+133 verbose request id 0d66c160de273afa
+134 verbose url raw /ugilify-js
+135 verbose url resolving [ 'https://registry.npmjs.org/', './ugilify-js' ]
+136 verbose url resolved https://registry.npmjs.org/ugilify-js
+137 verbose request where is https://registry.npmjs.org/ugilify-js
+138 info trying registry request attempt 1 at 13:28:40
+139 http GET https://registry.npmjs.org/ugilify-js
+140 verbose request where is /ntwitter
+141 verbose request registry https://registry.npmjs.org/
+142 verbose url raw /ntwitter
+143 verbose url resolving [ 'https://registry.npmjs.org/', './ntwitter' ]
+144 verbose url resolved https://registry.npmjs.org/ntwitter
+145 verbose request where is https://registry.npmjs.org/ntwitter
+146 info trying registry request attempt 1 at 13:28:40
+147 verbose etag "39961P9UV3MX8VXQIXYXPJVWP"
+148 http GET https://registry.npmjs.org/ntwitter
+149 verbose request where is /express-handlebars
+150 verbose request registry https://registry.npmjs.org/
+151 verbose url raw /express-handlebars
+152 verbose url resolving [ 'https://registry.npmjs.org/', './express-handlebars' ]
+153 verbose url resolved https://registry.npmjs.org/express-handlebars
+154 verbose request where is https://registry.npmjs.org/express-handlebars
+155 info trying registry request attempt 1 at 13:28:40
+156 verbose etag "4BNLGSUQC3Z2LLR0TKS55RE9R"
+157 http GET https://registry.npmjs.org/express-handlebars
+158 verbose request where is /reactify
+159 verbose request registry https://registry.npmjs.org/
+160 verbose url raw /reactify
+161 verbose url resolving [ 'https://registry.npmjs.org/', './reactify' ]
+162 verbose url resolved https://registry.npmjs.org/reactify
+163 verbose request where is https://registry.npmjs.org/reactify
+164 info trying registry request attempt 1 at 13:28:40
+165 verbose etag "83GRJYMYRAPTOO6I8BZ8CGQ91"
+166 http GET https://registry.npmjs.org/reactify
+167 verbose request where is /browserify
+168 verbose request registry https://registry.npmjs.org/
+169 verbose url raw /browserify
+170 verbose url resolving [ 'https://registry.npmjs.org/', './browserify' ]
+171 verbose url resolved https://registry.npmjs.org/browserify
+172 verbose request where is https://registry.npmjs.org/browserify
+173 info trying registry request attempt 1 at 13:28:40
+174 verbose etag "RIY58GGTJYY1GN25ULNAOM6U"
+175 http GET https://registry.npmjs.org/browserify
+176 verbose request where is /react
+177 verbose request registry https://registry.npmjs.org/
+178 verbose url raw /react
+179 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+180 verbose url resolved https://registry.npmjs.org/react
+181 verbose request where is https://registry.npmjs.org/react
+182 info trying registry request attempt 1 at 13:28:40
+183 verbose etag "AHCSIS0FNHIE6XTHX8B5WCM3D"
+184 http GET https://registry.npmjs.org/react
+185 verbose request where is /nodemon
+186 verbose request registry https://registry.npmjs.org/
+187 verbose url raw /nodemon
+188 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+189 verbose url resolved https://registry.npmjs.org/nodemon
+190 verbose request where is https://registry.npmjs.org/nodemon
+191 info trying registry request attempt 1 at 13:28:40
+192 verbose etag "7XW4CLQNQOU0VB33CRUW2ICCH"
+193 http GET https://registry.npmjs.org/nodemon
+194 verbose request where is /socket.io
+195 verbose request registry https://registry.npmjs.org/
+196 verbose url raw /socket.io
+197 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+198 verbose url resolved https://registry.npmjs.org/socket.io
+199 verbose request where is https://registry.npmjs.org/socket.io
+200 info trying registry request attempt 1 at 13:28:40
+201 verbose etag "4MF62BJVIZA6EDD0D2E4TQYSS"
+202 http GET https://registry.npmjs.org/socket.io
+203 verbose request where is /node-jsx
+204 verbose request registry https://registry.npmjs.org/
+205 verbose url raw /node-jsx
+206 verbose url resolving [ 'https://registry.npmjs.org/', './node-jsx' ]
+207 verbose url resolved https://registry.npmjs.org/node-jsx
+208 verbose request where is https://registry.npmjs.org/node-jsx
+209 info trying registry request attempt 1 at 13:28:40
+210 verbose etag "8AKL4HFQMARPRSKCT7QJOULP6"
+211 http GET https://registry.npmjs.org/node-jsx
+212 verbose request where is /mongoose
+213 verbose request registry https://registry.npmjs.org/
+214 verbose url raw /mongoose
+215 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+216 verbose url resolved https://registry.npmjs.org/mongoose
+217 verbose request where is https://registry.npmjs.org/mongoose
+218 info trying registry request attempt 1 at 13:28:40
+219 verbose etag "4AIUERSUELEOB2N580NXMGVOW"
+220 http GET https://registry.npmjs.org/mongoose
+221 verbose request where is /watchify
+222 verbose request registry https://registry.npmjs.org/
+223 verbose url raw /watchify
+224 verbose url resolving [ 'https://registry.npmjs.org/', './watchify' ]
+225 verbose url resolved https://registry.npmjs.org/watchify
+226 verbose request where is https://registry.npmjs.org/watchify
+227 info trying registry request attempt 1 at 13:28:40
+228 verbose etag "BORPFN881XPA7M42T1DROSTZ8"
+229 http GET https://registry.npmjs.org/watchify
+230 verbose request where is /express
+231 verbose request registry https://registry.npmjs.org/
+232 verbose url raw /express
+233 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+234 verbose url resolved https://registry.npmjs.org/express
+235 verbose request where is https://registry.npmjs.org/express
+236 info trying registry request attempt 1 at 13:28:40
+237 verbose etag "2O5ZSY6311N2OXO3ZIMIJQ8M3"
+238 http GET https://registry.npmjs.org/express
+239 http 200 https://registry.npmjs.org/reactify
+240 silly registry.get cb [ 200,
+240 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+240 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+240 silly registry.get     etag: '"9M37X9OV3BYSPS28NWVRE1BNG"',
+240 silly registry.get     'content-type': 'application/json',
+240 silly registry.get     'cache-control': 'max-age=60',
+240 silly registry.get     'content-length': '51192',
+240 silly registry.get     'accept-ranges': 'bytes',
+240 silly registry.get     via: '1.1 varnish',
+240 silly registry.get     age: '0',
+240 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+240 silly registry.get     'x-cache': 'HIT',
+240 silly registry.get     'x-cache-hits': '1',
+240 silly registry.get     'x-timer': 'S1422509320.813716,VS0,VE201',
+240 silly registry.get     vary: 'Accept',
+240 silly registry.get     'keep-alive': 'timeout=10, max=50',
+240 silly registry.get     connection: 'Keep-Alive' } ]
+241 verbose addNamed [ 'reactify', '1.0.0' ]
+242 verbose addNamed [ '1.0.0', '1.0.0' ]
+243 silly lockFile eb832512-reactify-1-0-0 reactify@1.0.0
+244 verbose lock reactify@1.0.0 C:\Users\Admin\AppData\Roaming\npm-cache\eb832512-reactify-1-0-0.lock
+245 silly lockFile cd22aac0--org-reactify-reactify-1-0-0-tgz https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz
+246 verbose lock https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz C:\Users\Admin\AppData\Roaming\npm-cache\cd22aac0--org-reactify-reactify-1-0-0-tgz.lock
+247 verbose addRemoteTarball [ 'https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz',
+247 verbose addRemoteTarball   '129cd4f81304c1eb5a07fe1d6ae144f2e8135498' ]
+248 info retry fetch attempt 1 at 13:28:40
+249 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\reactify\-\reactify-1.0.0.tgz
+250 http GET https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz
+251 http 404 https://registry.npmjs.org/ugilify-js
+252 verbose headers { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+252 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+252 verbose headers   'content-type': 'application/json',
+252 verbose headers   'cache-control': 'max-age=0',
+252 verbose headers   'content-length': '52',
+252 verbose headers   'accept-ranges': 'bytes',
+252 verbose headers   via: '1.1 varnish',
+252 verbose headers   age: '0',
+252 verbose headers   'x-served-by': 'cache-sn88-SIN',
+252 verbose headers   'x-cache': 'MISS',
+252 verbose headers   'x-cache-hits': '0',
+252 verbose headers   'x-timer': 'S1422509320.873556,VS0,VE200',
+252 verbose headers   'keep-alive': 'timeout=10, max=50',
+252 verbose headers   connection: 'Keep-Alive' }
+253 silly registry.get cb [ 404,
+253 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+253 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+253 silly registry.get     'content-type': 'application/json',
+253 silly registry.get     'cache-control': 'max-age=0',
+253 silly registry.get     'content-length': '52',
+253 silly registry.get     'accept-ranges': 'bytes',
+253 silly registry.get     via: '1.1 varnish',
+253 silly registry.get     age: '0',
+253 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+253 silly registry.get     'x-cache': 'MISS',
+253 silly registry.get     'x-cache-hits': '0',
+253 silly registry.get     'x-timer': 'S1422509320.873556,VS0,VE200',
+253 silly registry.get     'keep-alive': 'timeout=10, max=50',
+253 silly registry.get     connection: 'Keep-Alive' } ]
+254 silly lockFile 76742a9a-ugilify-js-latest ugilify-js@latest
+255 silly lockFile 76742a9a-ugilify-js-latest ugilify-js@latest
+256 http 200 https://registry.npmjs.org/express-handlebars
+257 silly registry.get cb [ 200,
+257 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+257 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+257 silly registry.get     etag: '"BI9EY22PC1Q08RNWDZVE0K61L"',
+257 silly registry.get     'content-type': 'application/json',
+257 silly registry.get     'cache-control': 'max-age=60',
+257 silly registry.get     'content-length': '35700',
+257 silly registry.get     'accept-ranges': 'bytes',
+257 silly registry.get     via: '1.1 varnish',
+257 silly registry.get     age: '0',
+257 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+257 silly registry.get     'x-cache': 'MISS',
+257 silly registry.get     'x-cache-hits': '0',
+257 silly registry.get     'x-timer': 'S1422509320.819671,VS0,VE244',
+257 silly registry.get     vary: 'Accept',
+257 silly registry.get     'keep-alive': 'timeout=10, max=50',
+257 silly registry.get     connection: 'Keep-Alive' } ]
+258 verbose addNamed [ 'express-handlebars', '1.1.0' ]
+259 verbose addNamed [ '1.1.0', '1.1.0' ]
+260 silly lockFile 7839ee89-express-handlebars-1-1-0 express-handlebars@1.1.0
+261 verbose lock express-handlebars@1.1.0 C:\Users\Admin\AppData\Roaming\npm-cache\7839ee89-express-handlebars-1-1-0.lock
+262 silly lockFile 7839ee89-express-handlebars-1-1-0 express-handlebars@1.1.0
+263 silly lockFile 7839ee89-express-handlebars-1-1-0 express-handlebars@1.1.0
+264 silly lockFile 2a235eef-express-handlebars-latest express-handlebars@latest
+265 silly lockFile 2a235eef-express-handlebars-latest express-handlebars@latest
+266 http 200 https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz
+267 silly lockFile cd22aac0--org-reactify-reactify-1-0-0-tgz https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz
+268 silly lockFile cd22aac0--org-reactify-reactify-1-0-0-tgz https://registry.npmjs.org/reactify/-/reactify-1.0.0.tgz
+269 silly lockFile eb832512-reactify-1-0-0 reactify@1.0.0
+270 silly lockFile eb832512-reactify-1-0-0 reactify@1.0.0
+271 silly lockFile 82dfd23f-reactify-latest reactify@latest
+272 silly lockFile 82dfd23f-reactify-latest reactify@latest
+273 http 200 https://registry.npmjs.org/ntwitter
+274 silly registry.get cb [ 200,
+274 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+274 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+274 silly registry.get     etag: '"3BY1KVB2AFZW87CG7PLFJOSA4"',
+274 silly registry.get     'content-type': 'application/json',
+274 silly registry.get     'cache-control': 'max-age=60',
+274 silly registry.get     'content-length': '28139',
+274 silly registry.get     'accept-ranges': 'bytes',
+274 silly registry.get     via: '1.1 varnish',
+274 silly registry.get     age: '0',
+274 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+274 silly registry.get     'x-cache': 'MISS',
+274 silly registry.get     'x-cache-hits': '0',
+274 silly registry.get     'x-timer': 'S1422509320.815594,VS0,VE390',
+274 silly registry.get     vary: 'Accept',
+274 silly registry.get     'keep-alive': 'timeout=10, max=50',
+274 silly registry.get     connection: 'Keep-Alive' } ]
+275 verbose addNamed [ 'ntwitter', '0.5.0' ]
+276 verbose addNamed [ '0.5.0', '0.5.0' ]
+277 silly lockFile e3570b8e-ntwitter-0-5-0 ntwitter@0.5.0
+278 verbose lock ntwitter@0.5.0 C:\Users\Admin\AppData\Roaming\npm-cache\e3570b8e-ntwitter-0-5-0.lock
+279 warn deprecated ntwitter@0.5.0: Unmaintained
+280 silly lockFile e3570b8e-ntwitter-0-5-0 ntwitter@0.5.0
+281 silly lockFile e3570b8e-ntwitter-0-5-0 ntwitter@0.5.0
+282 silly lockFile 0f042bd5-ntwitter-latest ntwitter@latest
+283 silly lockFile 0f042bd5-ntwitter-latest ntwitter@latest
+284 http 200 https://registry.npmjs.org/browserify
+285 silly registry.get cb [ 200,
+285 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+285 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+285 silly registry.get     etag: '"91CORUO4H72T6KQ3TI6MEZS5K"',
+285 silly registry.get     'content-type': 'application/json',
+285 silly registry.get     'cache-control': 'max-age=60',
+285 silly registry.get     'content-length': '766921',
+285 silly registry.get     'accept-ranges': 'bytes',
+285 silly registry.get     via: '1.1 varnish',
+285 silly registry.get     age: '0',
+285 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+285 silly registry.get     'x-cache': 'HIT',
+285 silly registry.get     'x-cache-hits': '1',
+285 silly registry.get     'x-timer': 'S1422509320.814911,VS0,VE252',
+285 silly registry.get     vary: 'Accept',
+285 silly registry.get     'keep-alive': 'timeout=10, max=50',
+285 silly registry.get     connection: 'Keep-Alive' } ]
+286 http 200 https://registry.npmjs.org/react
+287 silly registry.get cb [ 200,
+287 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+287 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+287 silly registry.get     etag: '"AQITYFZ0DTIEJUDQZBR8V50YX"',
+287 silly registry.get     'content-type': 'application/json',
+287 silly registry.get     'cache-control': 'max-age=60',
+287 silly registry.get     'content-length': '49709',
+287 silly registry.get     'accept-ranges': 'bytes',
+287 silly registry.get     via: '1.1 varnish',
+287 silly registry.get     age: '0',
+287 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+287 silly registry.get     'x-cache': 'MISS',
+287 silly registry.get     'x-cache-hits': '0',
+287 silly registry.get     'x-timer': 'S1422509321.043836,VS0,VE201',
+287 silly registry.get     vary: 'Accept',
+287 silly registry.get     'keep-alive': 'timeout=10, max=49',
+287 silly registry.get     connection: 'Keep-Alive' } ]
+288 verbose addNamed [ 'browserify', '8.1.1' ]
+289 verbose addNamed [ '8.1.1', '8.1.1' ]
+290 silly lockFile 79682ca4-browserify-8-1-1 browserify@8.1.1
+291 verbose lock browserify@8.1.1 C:\Users\Admin\AppData\Roaming\npm-cache\79682ca4-browserify-8-1-1.lock
+292 verbose addNamed [ 'react', '0.12.2' ]
+293 verbose addNamed [ '0.12.2', '0.12.2' ]
+294 silly lockFile 1f2cec02-react-0-12-2 react@0.12.2
+295 verbose lock react@0.12.2 C:\Users\Admin\AppData\Roaming\npm-cache\1f2cec02-react-0-12-2.lock
+296 silly lockFile 15394883--browserify-browserify-8-1-1-tgz https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz
+297 verbose lock https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz C:\Users\Admin\AppData\Roaming\npm-cache\15394883--browserify-browserify-8-1-1-tgz.lock
+298 verbose addRemoteTarball [ 'https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz',
+298 verbose addRemoteTarball   '3b1f8e1d47a0037908d4feaac7e7d76c55ba4678' ]
+299 silly lockFile 55ae8d64-npmjs-org-react-react-0-12-2-tgz https://registry.npmjs.org/react/-/react-0.12.2.tgz
+300 verbose lock https://registry.npmjs.org/react/-/react-0.12.2.tgz C:\Users\Admin\AppData\Roaming\npm-cache\55ae8d64-npmjs-org-react-react-0-12-2-tgz.lock
+301 info retry fetch attempt 1 at 13:28:40
+302 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\browserify\-\browserify-8.1.1.tgz
+303 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.12.2.tgz',
+303 verbose addRemoteTarball   '1c4f0b08818146eeab4f0ab39257e0aa52027e00' ]
+304 http GET https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz
+305 info retry fetch attempt 1 at 13:28:40
+306 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\react\-\react-0.12.2.tgz
+307 http GET https://registry.npmjs.org/react/-/react-0.12.2.tgz
+308 http 200 https://registry.npmjs.org/socket.io
+309 silly registry.get cb [ 200,
+309 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+309 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+309 silly registry.get     etag: '"7Q7SX1G0SHAJ9LCSDLK2GA7GG"',
+309 silly registry.get     'content-type': 'application/json',
+309 silly registry.get     'cache-control': 'max-age=60',
+309 silly registry.get     'content-length': '107591',
+309 silly registry.get     'accept-ranges': 'bytes',
+309 silly registry.get     via: '1.1 varnish',
+309 silly registry.get     age: '0',
+309 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+309 silly registry.get     'x-cache': 'HIT',
+309 silly registry.get     'x-cache-hits': '1',
+309 silly registry.get     'x-timer': 'S1422509321.086615,VS0,VE201',
+309 silly registry.get     vary: 'Accept',
+309 silly registry.get     'keep-alive': 'timeout=10, max=49',
+309 silly registry.get     connection: 'Keep-Alive' } ]
+310 http 200 https://registry.npmjs.org/nodemon
+311 silly registry.get cb [ 200,
+311 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+311 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+311 silly registry.get     etag: '"8KI8W705ZIDF68EBP0LUHCOD6"',
+311 silly registry.get     'content-type': 'application/json',
+311 silly registry.get     'cache-control': 'max-age=60',
+311 silly registry.get     'content-length': '143828',
+311 silly registry.get     'accept-ranges': 'bytes',
+311 silly registry.get     via: '1.1 varnish',
+311 silly registry.get     age: '0',
+311 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+311 silly registry.get     'x-cache': 'HIT',
+311 silly registry.get     'x-cache-hits': '1',
+311 silly registry.get     'x-timer': 'S1422509321.082253,VS0,VE198',
+311 silly registry.get     vary: 'Accept',
+311 silly registry.get     'keep-alive': 'timeout=10, max=49',
+311 silly registry.get     connection: 'Keep-Alive' } ]
+312 verbose addNamed [ 'socket.io', '1.3.2' ]
+313 verbose addNamed [ '1.3.2', '1.3.2' ]
+314 silly lockFile b15c0080-socket-io-1-3-2 socket.io@1.3.2
+315 verbose lock socket.io@1.3.2 C:\Users\Admin\AppData\Roaming\npm-cache\b15c0080-socket-io-1-3-2.lock
+316 verbose addNamed [ 'nodemon', '1.3.5' ]
+317 verbose addNamed [ '1.3.5', '1.3.5' ]
+318 silly lockFile a4c00a93-nodemon-1-3-5 nodemon@1.3.5
+319 verbose lock nodemon@1.3.5 C:\Users\Admin\AppData\Roaming\npm-cache\a4c00a93-nodemon-1-3-5.lock
+320 silly lockFile b3aebed7-rg-socket-io-socket-io-1-3-2-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz
+321 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz C:\Users\Admin\AppData\Roaming\npm-cache\b3aebed7-rg-socket-io-socket-io-1-3-2-tgz.lock
+322 silly lockFile 176ed64a-js-org-nodemon-nodemon-1-3-5-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz
+323 verbose lock https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz C:\Users\Admin\AppData\Roaming\npm-cache\176ed64a-js-org-nodemon-nodemon-1-3-5-tgz.lock
+324 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz',
+324 verbose addRemoteTarball   'b8c1ffc63b3341d9609ee55e06560a6ca1f185e5' ]
+325 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz',
+325 verbose addRemoteTarball   '8ec82d02048474c652d8ad3f4d8a23adb13c4be3' ]
+326 info retry fetch attempt 1 at 13:28:40
+327 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\socket.io\-\socket.io-1.3.2.tgz
+328 http GET https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz
+329 info retry fetch attempt 1 at 13:28:40
+330 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\nodemon\-\nodemon-1.3.5.tgz
+331 http 200 https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz
+332 http GET https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz
+333 http 200 https://registry.npmjs.org/react/-/react-0.12.2.tgz
+334 silly lockFile 15394883--browserify-browserify-8-1-1-tgz https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz
+335 silly lockFile 15394883--browserify-browserify-8-1-1-tgz https://registry.npmjs.org/browserify/-/browserify-8.1.1.tgz
+336 silly lockFile 79682ca4-browserify-8-1-1 browserify@8.1.1
+337 silly lockFile 79682ca4-browserify-8-1-1 browserify@8.1.1
+338 silly lockFile 97edd6c9-browserify-latest browserify@latest
+339 silly lockFile 97edd6c9-browserify-latest browserify@latest
+340 http 200 https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz
+341 http 200 https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz
+342 silly lockFile b3aebed7-rg-socket-io-socket-io-1-3-2-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz
+343 silly lockFile b3aebed7-rg-socket-io-socket-io-1-3-2-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.3.2.tgz
+344 silly lockFile b15c0080-socket-io-1-3-2 socket.io@1.3.2
+345 silly lockFile b15c0080-socket-io-1-3-2 socket.io@1.3.2
+346 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+347 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+348 silly lockFile 176ed64a-js-org-nodemon-nodemon-1-3-5-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz
+349 silly lockFile 176ed64a-js-org-nodemon-nodemon-1-3-5-tgz https://registry.npmjs.org/nodemon/-/nodemon-1.3.5.tgz
+350 silly lockFile a4c00a93-nodemon-1-3-5 nodemon@1.3.5
+351 silly lockFile a4c00a93-nodemon-1-3-5 nodemon@1.3.5
+352 silly lockFile 164666a5-nodemon-latest nodemon@latest
+353 silly lockFile 164666a5-nodemon-latest nodemon@latest
+354 http 200 https://registry.npmjs.org/watchify
+355 silly registry.get cb [ 200,
+355 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+355 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+355 silly registry.get     etag: '"DNA30ZDTY8ES406O81HWA33ZE"',
+355 silly registry.get     'content-type': 'application/json',
+355 silly registry.get     'cache-control': 'max-age=60',
+355 silly registry.get     'content-length': '49925',
+355 silly registry.get     'accept-ranges': 'bytes',
+355 silly registry.get     via: '1.1 varnish',
+355 silly registry.get     age: '0',
+355 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+355 silly registry.get     'x-cache': 'MISS',
+355 silly registry.get     'x-cache-hits': '0',
+355 silly registry.get     'x-timer': 'S1422509321.307320,VS0,VE200',
+355 silly registry.get     vary: 'Accept',
+355 silly registry.get     'keep-alive': 'timeout=10, max=48',
+355 silly registry.get     connection: 'Keep-Alive' } ]
+356 verbose addNamed [ 'watchify', '2.2.1' ]
+357 verbose addNamed [ '2.2.1', '2.2.1' ]
+358 silly lockFile 63573432-watchify-2-2-1 watchify@2.2.1
+359 verbose lock watchify@2.2.1 C:\Users\Admin\AppData\Roaming\npm-cache\63573432-watchify-2-2-1.lock
+360 silly lockFile 744529eb--org-watchify-watchify-2-2-1-tgz https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz
+361 verbose lock https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz C:\Users\Admin\AppData\Roaming\npm-cache\744529eb--org-watchify-watchify-2-2-1-tgz.lock
+362 verbose addRemoteTarball [ 'https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz',
+362 verbose addRemoteTarball   '6537b3691e364cbb67eff63e2a42fc4889f05f6e' ]
+363 info retry fetch attempt 1 at 13:28:41
+364 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\watchify\-\watchify-2.2.1.tgz
+365 http GET https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz
+366 http 200 https://registry.npmjs.org/mongoose
+367 silly registry.get cb [ 200,
+367 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+367 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+367 silly registry.get     etag: '"94KBTJLHPUFB9SJKB8S83G2BM"',
+367 silly registry.get     'content-type': 'application/json',
+367 silly registry.get     'cache-control': 'max-age=60',
+367 silly registry.get     'content-length': '288526',
+367 silly registry.get     'accept-ranges': 'bytes',
+367 silly registry.get     via: '1.1 varnish',
+367 silly registry.get     age: '0',
+367 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+367 silly registry.get     'x-cache': 'HIT',
+367 silly registry.get     'x-cache-hits': '1',
+367 silly registry.get     'x-timer': 'S1422509321.270117,VS0,VE239',
+367 silly registry.get     vary: 'Accept',
+367 silly registry.get     'keep-alive': 'timeout=10, max=49',
+367 silly registry.get     connection: 'Keep-Alive' } ]
+368 verbose addNamed [ 'mongoose', '3.8.22' ]
+369 verbose addNamed [ '3.8.22', '3.8.22' ]
+370 silly lockFile 1574d450-mongoose-3-8-22 mongoose@3.8.22
+371 verbose lock mongoose@3.8.22 C:\Users\Admin\AppData\Roaming\npm-cache\1574d450-mongoose-3-8-22.lock
+372 silly lockFile cefea14a-org-mongoose-mongoose-3-8-22-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz
+373 verbose lock https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz C:\Users\Admin\AppData\Roaming\npm-cache\cefea14a-org-mongoose-mongoose-3-8-22-tgz.lock
+374 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz',
+374 verbose addRemoteTarball   'e5f21eb1dac5532cdee15241dea50553267eb2e4' ]
+375 info retry fetch attempt 1 at 13:28:41
+376 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\mongoose\-\mongoose-3.8.22.tgz
+377 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz
+378 http 200 https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz
+379 silly lockFile 744529eb--org-watchify-watchify-2-2-1-tgz https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz
+380 silly lockFile 744529eb--org-watchify-watchify-2-2-1-tgz https://registry.npmjs.org/watchify/-/watchify-2.2.1.tgz
+381 silly lockFile 63573432-watchify-2-2-1 watchify@2.2.1
+382 silly lockFile 63573432-watchify-2-2-1 watchify@2.2.1
+383 silly lockFile 55ae8d64-npmjs-org-react-react-0-12-2-tgz https://registry.npmjs.org/react/-/react-0.12.2.tgz
+384 silly lockFile 55ae8d64-npmjs-org-react-react-0-12-2-tgz https://registry.npmjs.org/react/-/react-0.12.2.tgz
+385 silly lockFile e985c5b7-watchify-latest watchify@latest
+386 silly lockFile e985c5b7-watchify-latest watchify@latest
+387 silly lockFile 1f2cec02-react-0-12-2 react@0.12.2
+388 silly lockFile 1f2cec02-react-0-12-2 react@0.12.2
+389 silly lockFile d2156d35-react-latest react@latest
+390 silly lockFile d2156d35-react-latest react@latest
+391 http 200 https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz
+392 silly lockFile cefea14a-org-mongoose-mongoose-3-8-22-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz
+393 silly lockFile cefea14a-org-mongoose-mongoose-3-8-22-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.8.22.tgz
+394 silly lockFile 1574d450-mongoose-3-8-22 mongoose@3.8.22
+395 silly lockFile 1574d450-mongoose-3-8-22 mongoose@3.8.22
+396 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+397 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+398 http 200 https://registry.npmjs.org/node-jsx
+399 silly registry.get cb [ 200,
+399 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+399 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+399 silly registry.get     etag: '"ARQN482PJ1OQLF3YBX8Y1H41C"',
+399 silly registry.get     'content-type': 'application/json',
+399 silly registry.get     'cache-control': 'max-age=60',
+399 silly registry.get     'content-length': '10853',
+399 silly registry.get     'accept-ranges': 'bytes',
+399 silly registry.get     via: '1.1 varnish',
+399 silly registry.get     age: '0',
+399 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+399 silly registry.get     'x-cache': 'MISS',
+399 silly registry.get     'x-cache-hits': '0',
+399 silly registry.get     'x-timer': 'S1422509321.232713,VS0,VE481',
+399 silly registry.get     vary: 'Accept',
+399 silly registry.get     'keep-alive': 'timeout=10, max=49',
+399 silly registry.get     connection: 'Keep-Alive' } ]
+400 verbose addNamed [ 'node-jsx', '0.12.4' ]
+401 verbose addNamed [ '0.12.4', '0.12.4' ]
+402 silly lockFile a337b1aa-node-jsx-0-12-4 node-jsx@0.12.4
+403 verbose lock node-jsx@0.12.4 C:\Users\Admin\AppData\Roaming\npm-cache\a337b1aa-node-jsx-0-12-4.lock
+404 silly lockFile 71f4fa0a-org-node-jsx-node-jsx-0-12-4-tgz https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz
+405 verbose lock https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz C:\Users\Admin\AppData\Roaming\npm-cache\71f4fa0a-org-node-jsx-node-jsx-0-12-4-tgz.lock
+406 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz',
+406 verbose addRemoteTarball   '1df4fa3d4dca60e0893f4e9c112d82be41a2f5bb' ]
+407 info retry fetch attempt 1 at 13:28:41
+408 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\node-jsx\-\node-jsx-0.12.4.tgz
+409 http GET https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz
+410 http 200 https://registry.npmjs.org/express
+411 silly registry.get cb [ 200,
+411 silly registry.get   { date: 'Thu, 29 Jan 2015 05:28:41 GMT',
+411 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+411 silly registry.get     etag: '"11YE0KP49U7PE1IA2UOVRMG3G"',
+411 silly registry.get     'content-type': 'application/json',
+411 silly registry.get     'cache-control': 'max-age=60',
+411 silly registry.get     'content-length': '463761',
+411 silly registry.get     'accept-ranges': 'bytes',
+411 silly registry.get     via: '1.1 varnish',
+411 silly registry.get     age: '0',
+411 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+411 silly registry.get     'x-cache': 'HIT',
+411 silly registry.get     'x-cache-hits': '1',
+411 silly registry.get     'x-timer': 'S1422509321.341972,VS0,VE245',
+411 silly registry.get     vary: 'Accept',
+411 silly registry.get     'keep-alive': 'timeout=10, max=48',
+411 silly registry.get     connection: 'Keep-Alive' } ]
+412 verbose addNamed [ 'express', '4.11.1' ]
+413 verbose addNamed [ '4.11.1', '4.11.1' ]
+414 silly lockFile 08bdadd9-express-4-11-1 express@4.11.1
+415 verbose lock express@4.11.1 C:\Users\Admin\AppData\Roaming\npm-cache\08bdadd9-express-4-11-1.lock
+416 silly lockFile e7152fb6-s-org-express-express-4-11-1-tgz https://registry.npmjs.org/express/-/express-4.11.1.tgz
+417 verbose lock https://registry.npmjs.org/express/-/express-4.11.1.tgz C:\Users\Admin\AppData\Roaming\npm-cache\e7152fb6-s-org-express-express-4-11-1-tgz.lock
+418 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.11.1.tgz',
+418 verbose addRemoteTarball   '36d04dd27aa1667634e987529767f9c99de7903f' ]
+419 info retry fetch attempt 1 at 13:28:41
+420 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-14988-FU2cA2Jo\registry.npmjs.org\express\-\express-4.11.1.tgz
+421 http GET https://registry.npmjs.org/express/-/express-4.11.1.tgz
+422 http 200 https://registry.npmjs.org/express/-/express-4.11.1.tgz
+423 silly lockFile e7152fb6-s-org-express-express-4-11-1-tgz https://registry.npmjs.org/express/-/express-4.11.1.tgz
+424 silly lockFile e7152fb6-s-org-express-express-4-11-1-tgz https://registry.npmjs.org/express/-/express-4.11.1.tgz
+425 silly lockFile 08bdadd9-express-4-11-1 express@4.11.1
+426 silly lockFile 08bdadd9-express-4-11-1 express@4.11.1
+427 silly lockFile c30a01ab-express-latest express@latest
+428 silly lockFile c30a01ab-express-latest express@latest
+429 http 200 https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz
+430 silly lockFile 71f4fa0a-org-node-jsx-node-jsx-0-12-4-tgz https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz
+431 silly lockFile 71f4fa0a-org-node-jsx-node-jsx-0-12-4-tgz https://registry.npmjs.org/node-jsx/-/node-jsx-0.12.4.tgz
+432 silly lockFile a337b1aa-node-jsx-0-12-4 node-jsx@0.12.4
+433 silly lockFile a337b1aa-node-jsx-0-12-4 node-jsx@0.12.4
+434 silly lockFile ee028ce4-node-jsx-latest node-jsx@latest
+435 silly lockFile ee028ce4-node-jsx-latest node-jsx@latest
+436 error 404 404 Not Found: ugilify-js
+436 error 404
+436 error 404 'ugilify-js' is not in the npm registry.
+436 error 404 You should bug the author to publish it
+436 error 404 It was specified as a dependency of 'twitterNode'
+436 error 404
+436 error 404 Maybe try 'npm search ugilify'
+436 error 404
+436 error 404 Note that you can also install from a
+436 error 404 tarball, folder, or http url, or git url.
+437 error System Windows_NT 6.1.7601
+438 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+439 error cwd C:\Users\Admin\WebstormProjects\twitterNode
+440 error node -v v0.10.33
+441 error npm -v 1.4.28
+442 error code E404
+443 verbose exit [ 1, true ]

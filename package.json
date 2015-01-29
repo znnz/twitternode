@@ -1,0 +1,38 @@
+{
+  "name":"NodePlusTwitterPlusReact",
+  "version":"0.0.1",
+  "description":"Twitter client using nodejs and react",
+  "main":"app.js",
+  "scripts":{
+    "watch":"watchify app.js -o public/js/bundle.js -v",
+    "browserify":"browserify app.js | uglifyjs > public/js/bundle.js",
+    "bulid":"npm run browserify",
+    "start":"npm run watch & nodemon server.js"
+  },
+  "author":"znnz",
+  "license":"MIT",
+  "engines":{
+    "node":"0.10.x",
+    "npm":"2.1.x"
+  },
+  "dependencies":{
+    "express":"latest",
+    "express-handlebars":"latest",
+    "mongoose":"latest",
+    "node-jsx":"latest",
+    "twitter":"latest",
+    "react":"latest",
+    "socket.io":"latest"
+  },
+  "devDependencies":{
+    "browserify":"latest",
+    "nodemon":"latest",
+    "reactify":"latest",
+    "uglify-js":"latest",
+    "watchify":"latest"
+  },
+  "browserify":{
+
+        "transform":["reactify"]
+  }
+}
